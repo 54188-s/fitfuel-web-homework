@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="540" viewBox="0 0 440 540">
+<title>肌群训练导航 · 正面</title><defs>
+<radialGradient id="bg"><stop stop-color="#123932"/><stop offset="1" stop-color="#08151e"/></radialGradient>
+<linearGradient id="skin" x1="0" x2="1"><stop stop-color="#233e49"/><stop offset=".5" stop-color="#41616a"/><stop offset="1" stop-color="#19353e"/></linearGradient>
+<linearGradient id="muscle" x2=".8" y2="1"><stop stop-color="#69ffcf"/><stop offset=".45" stop-color="#00cd98"/><stop offset="1" stop-color="#087861"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#578a83" stroke-opacity=".09"/></pattern>
+</defs><rect width="440" height="540" rx="24" fill="url(#bg)"/><rect width="440" height="540" rx="24" fill="url(#grid)"/>
+<g fill="none" stroke="#00e6aa" opacity=".16"><ellipse cx="220" cy="282" rx="159" ry="200"/><ellipse cx="220" cy="282" rx="120" ry="170"/><path d="M220 55V503M43 282H397" stroke-dasharray="3 7"/></g>
+<g font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#79a79e"><text x="22" y="28">MUSCLE ATLAS / 01</text><text x="317" y="28">ANTERIOR</text></g><circle cx="26" cy="49" r="3" fill="#00ffb3"/><text x="38" y="53" font-size="10" fill="#92b6ae" font-family="sans-serif">选择肌群 · 探索动作</text>
+<g stroke="#608a8b" stroke-width="1.1" stroke-linejoin="round">
+<path d="M203 64Q220 54 237 64L242 85 236 105 226 116H214L204 105 198 85Z" fill="url(#skin)"/>
+<path d="M210 111L206 128 178 136Q157 140 148 159L140 205 124 249 116 279 127 285 144 259 161 222 173 202 179 234 190 272 185 307 179 349 182 399 190 452 184 481 187 491H209L217 474 214 444 216 395 220 353 224 395 226 444 223 474 231 491H253L256 481 250 452 258 399 261 349 255 307 250 272 261 234 267 202 279 222 296 259 313 285 324 279 316 249 300 205 292 159Q283 140 262 136L234 128 230 111" fill="url(#skin)"/>
+<path d="M116 279L111 292 113 307 118 310 121 297 125 307 131 304 127 285M324 279L329 292 327 307 322 310 319 297 315 307 309 304 313 285" fill="#26454e"/>
+</g>
+<g fill="url(#muscle)" stroke="#75ffdb" stroke-opacity=".45" stroke-width=".8">
+<path d="M177 136Q153 137 149 159L146 178Q160 179 174 163L181 146Z"/><path d="M263 136Q287 137 291 159L294 178Q280 179 266 163L259 146Z"/>
+<path d="M183 147Q201 139 216 151L216 179Q199 193 178 178L174 164Z"/><path d="M257 147Q239 139 224 151L224 179Q241 193 262 178L266 164Z"/>
+<path d="M147 181Q160 180 168 174L163 202 150 226 139 225Z"/><path d="M293 181Q280 180 272 174L277 202 290 226 301 225Z"/>
+<path d="M139 231L149 232 130 274 121 276Z"/><path d="M301 231L291 232 310 274 319 276Z" opacity=".55"/>
+<path d="M201 194L216 190 216 209 199 210Z M224 190L239 194 241 210 224 209Z M199 216L216 215 216 235 200 233Z M224 215L241 216 240 233 224 235Z M201 240L216 241 216 262 206 258Z M224 241L239 240 234 258 224 262Z"/>
+<path d="M181 192L195 201 194 235 203 264 190 252 180 218Z M259 192L245 201 246 235 237 264 250 252 260 218Z" opacity=".55"/>
+<path d="M190 308L211 319 208 367 196 391 185 365Z M250 308L229 319 232 367 244 391 255 365Z"/>
+<path d="M190 318L184 345 185 377 191 388 198 361Z M250 318L256 345 255 377 249 388 242 361Z" opacity=".6"/>
+<path d="M190 404L201 402 209 426 205 454 196 460Z M250 404L239 402 231 426 235 454 244 460Z" opacity=".7"/>
+</g>
+<g fill="none" stroke="#89b5b2" stroke-width=".8" opacity=".6"><path d="M211 122L220 140 229 122M180 142L203 135 217 145M260 142L237 135 223 145M220 151V271M190 276L210 289 217 307M250 276L230 289 223 307M191 398L207 398M233 398L249 398M195 463L206 466M234 466L245 463"/><path d="M183 155L207 171M181 163L208 177M257 155L233 171M259 163L232 177" stroke="#b3ffe5"/></g>
+<g fill="none" stroke="#00dca1" stroke-width="1"><path d="M161 149H109L93 133H50M191 171H100L84 188H47M140 218H98L81 249H46M238 225H315L335 213H392M244 350H309L329 366H391"/><g fill="#00ffb3"><circle cx="161" cy="149" r="3"/><circle cx="191" cy="171" r="3"/><circle cx="140" cy="218" r="3"/><circle cx="238" cy="225" r="3"/><circle cx="244" cy="350" r="3"/></g></g>
+<g font-family="Microsoft YaHei,sans-serif" font-size="12" fill="#d3fff0"><text x="48" y="124">01 肩部</text><text x="46" y="180">02 胸部</text><text x="45" y="242">03 手臂</text><text x="338" y="205">04 核心</text><text x="337" y="358">05 腿部</text></g>
+<path d="M22 511H418" stroke="#25463f"/><text x="22" y="529" font-family="sans-serif" font-size="10" fill="#78a29c">正面肌群示意 / 非医学解剖图</text><text x="342" y="529" font-family="monospace" font-size="10" fill="#00efb0">FITFUEL</text></svg>

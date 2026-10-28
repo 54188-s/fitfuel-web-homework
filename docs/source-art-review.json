@@ -1,0 +1,28 @@
+{
+  "reviewDate": "2026-10-21",
+  "contactSheets": 14,
+  "generatedContactSheets": 4,
+  "selectedPosePolicy": "Only selected reference poses are displayed; all source frames are retained in the engineering source tree.",
+  "unreviewed": "middle-frame animation and professional coaching validation",
+  "repairedCatalogSlugs": [
+    "hiking",
+    "swimming",
+    "barbell-glute-bridge",
+    "seal-jack",
+    "torso-twist-stretch",
+    "towel-hamstring-curl",
+    "lying-hamstring-walkout",
+    "stability-ball-hamstring-curl",
+    "banded-frog-pump",
+    "spider-curl"
+  ],
+  "emptyCatalogArt": [
+    "smith-machine-incline-bench-press",
+    "standing-one-arm-triceps-extension-with-dumbbell"
+  ],
+  "synonymsMerged": {
+    "rear-delt-fly": "rear_delt_fly",
+    "leg-curl": "leg_curl",
+    "single-arm-dumbbell-tricep-extension": "single_overhead_extension"
+  }
+}

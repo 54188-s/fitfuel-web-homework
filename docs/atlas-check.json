@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "topPlacement": true,
+      "noOverflow": true,
+      "hotspotChest": true
+    },
+    {
+      "width": 390,
+      "topPlacement": true,
+      "noOverflow": true,
+      "hotspotChest": true
+    },
+    {
+      "width": 320,
+      "topPlacement": true,
+      "noOverflow": true,
+      "hotspotChest": true
+    }
+  ],
+  "errors": []
+}

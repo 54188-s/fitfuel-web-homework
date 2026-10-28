@@ -1,0 +1,1520 @@
+{
+  "review": {
+    "date": "2026-10-22",
+    "criterion": "每个动作单独对照；保留正常三图组。比值只作筛选线索，不是自动删除规则。",
+    "actionsAdjusted": 84,
+    "framesRemoved": 85
+  },
+  "items": [
+    {
+      "id": "bench_press",
+      "name": "杠铃卧推",
+      "before": [
+        "images/exercises/workout-guide/bench-press/frame-1.svg",
+        "images/exercises/workout-guide/bench-press/frame-2.svg",
+        "images/exercises/workout-guide/bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/bench-press/frame-1.svg",
+        "images/exercises/workout-guide/bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "dumbbell_press",
+      "name": "哑铃卧推",
+      "before": [
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-2.svg",
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dumbbell-bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "incline_bench",
+      "name": "上斜杠铃卧推",
+      "before": [
+        "images/exercises/workout-guide/incline-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/incline-bench-press/frame-2.svg",
+        "images/exercises/workout-guide/incline-bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/incline-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/incline-bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/incline-bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "incline_dumbbell",
+      "name": "上斜哑铃卧推",
+      "before": [
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-2.svg",
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/incline-dumbbell-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "decline_press",
+      "name": "下斜卧推",
+      "before": [
+        "images/exercises/workout-guide/decline-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/decline-bench-press/frame-2.svg",
+        "images/exercises/workout-guide/decline-bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/decline-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/decline-bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/decline-bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "dumbbell_fly",
+      "name": "哑铃飞鸟",
+      "before": [
+        "images/exercises/workout-guide/dumbbell-fly/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-fly/frame-2.svg",
+        "images/exercises/workout-guide/dumbbell-fly/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dumbbell-fly/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-fly/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dumbbell-fly/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "pushup",
+      "name": "俯卧撑",
+      "before": [
+        "images/exercises/workout-guide/push-up/frame-1.svg",
+        "images/exercises/workout-guide/push-up/frame-2.svg",
+        "images/exercises/workout-guide/push-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/push-up/frame-1.svg",
+        "images/exercises/workout-guide/push-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/push-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "pullup",
+      "name": "引体向上",
+      "before": [
+        "images/exercises/workout-guide/pull-up/frame-1.svg",
+        "images/exercises/workout-guide/pull-up/frame-2.svg",
+        "images/exercises/workout-guide/pull-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/pull-up/frame-1.svg",
+        "images/exercises/workout-guide/pull-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/pull-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "lat_pulldown",
+      "name": "高位下拉",
+      "before": [
+        "images/exercises/workout-guide/lat-pulldown/frame-1.svg",
+        "images/exercises/workout-guide/lat-pulldown/frame-2.svg",
+        "images/exercises/workout-guide/lat-pulldown/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/lat-pulldown/frame-1.svg",
+        "images/exercises/workout-guide/lat-pulldown/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/lat-pulldown/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "barbell_row",
+      "name": "杠铃划船",
+      "before": [
+        "images/exercises/workout-guide/barbell-row/frame-1.svg",
+        "images/exercises/workout-guide/barbell-row/frame-2.svg",
+        "images/exercises/workout-guide/barbell-row/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/barbell-row/frame-1.svg",
+        "images/exercises/workout-guide/barbell-row/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/barbell-row/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "seated_row",
+      "name": "坐姿绳索划船",
+      "before": [
+        "images/exercises/workout-guide/seated-row/frame-1.svg",
+        "images/exercises/workout-guide/seated-row/frame-2.svg",
+        "images/exercises/workout-guide/seated-row/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/seated-row/frame-1.svg",
+        "images/exercises/workout-guide/seated-row/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/seated-row/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "t_bar_row",
+      "name": "T杠划船",
+      "before": [
+        "images/exercises/workout-guide/t-bar-row/frame-1.svg",
+        "images/exercises/workout-guide/t-bar-row/frame-2.svg",
+        "images/exercises/workout-guide/t-bar-row/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/t-bar-row/frame-1.svg",
+        "images/exercises/workout-guide/t-bar-row/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/t-bar-row/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "deadlift",
+      "name": "硬拉",
+      "before": [
+        "images/exercises/workout-guide/deadlift/frame-1.svg",
+        "images/exercises/workout-guide/deadlift/frame-2.svg",
+        "images/exercises/workout-guide/deadlift/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/deadlift/frame-1.svg",
+        "images/exercises/workout-guide/deadlift/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/deadlift/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "chinup",
+      "name": "反手引体向上",
+      "before": [
+        "images/exercises/workout-guide/chin-up/frame-1.svg",
+        "images/exercises/workout-guide/chin-up/frame-2.svg",
+        "images/exercises/workout-guide/chin-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/chin-up/frame-1.svg",
+        "images/exercises/workout-guide/chin-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/chin-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "lateral_raise",
+      "name": "哑铃侧平举",
+      "before": [
+        "images/exercises/workout-guide/lateral-raise/frame-1.svg",
+        "images/exercises/workout-guide/lateral-raise/frame-2.svg",
+        "images/exercises/workout-guide/lateral-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/lateral-raise/frame-1.svg",
+        "images/exercises/workout-guide/lateral-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/lateral-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "front_raise",
+      "name": "哑铃前平举",
+      "before": [
+        "images/exercises/workout-guide/front-raise/frame-1.svg",
+        "images/exercises/workout-guide/front-raise/frame-2.svg",
+        "images/exercises/workout-guide/front-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/front-raise/frame-1.svg",
+        "images/exercises/workout-guide/front-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/front-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "face_pull",
+      "name": "面拉",
+      "before": [
+        "images/exercises/workout-guide/face-pull/frame-1.svg",
+        "images/exercises/workout-guide/face-pull/frame-2.svg",
+        "images/exercises/workout-guide/face-pull/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/face-pull/frame-1.svg",
+        "images/exercises/workout-guide/face-pull/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/face-pull/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "shrug",
+      "name": "杠铃耸肩",
+      "before": [
+        "images/exercises/workout-guide/shrug/frame-1.svg",
+        "images/exercises/workout-guide/shrug/frame-2.svg",
+        "images/exercises/workout-guide/shrug/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/shrug/frame-1.svg",
+        "images/exercises/workout-guide/shrug/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/shrug/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "squat",
+      "name": "杠铃深蹲",
+      "before": [
+        "images/exercises/workout-guide/squat/frame-1.svg",
+        "images/exercises/workout-guide/squat/frame-2.svg",
+        "images/exercises/workout-guide/squat/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/squat/frame-1.svg",
+        "images/exercises/workout-guide/squat/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/squat/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "front_squat",
+      "name": "前蹲",
+      "before": [
+        "images/exercises/workout-guide/front-squat/frame-1.svg",
+        "images/exercises/workout-guide/front-squat/frame-2.svg",
+        "images/exercises/workout-guide/front-squat/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/front-squat/frame-1.svg",
+        "images/exercises/workout-guide/front-squat/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/front-squat/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "rdl",
+      "name": "罗马尼亚硬拉",
+      "before": [
+        "images/exercises/workout-guide/romanian-deadlift/frame-1.svg",
+        "images/exercises/workout-guide/romanian-deadlift/frame-2.svg",
+        "images/exercises/workout-guide/romanian-deadlift/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/romanian-deadlift/frame-1.svg",
+        "images/exercises/workout-guide/romanian-deadlift/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/romanian-deadlift/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "hammer_curl",
+      "name": "锤式弯举",
+      "before": [
+        "images/exercises/workout-guide/hammer-curl/frame-1.svg",
+        "images/exercises/workout-guide/hammer-curl/frame-2.svg",
+        "images/exercises/workout-guide/hammer-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/hammer-curl/frame-1.svg",
+        "images/exercises/workout-guide/hammer-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/hammer-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "tricep_pushdown",
+      "name": "绳索下压",
+      "before": [
+        "images/exercises/workout-guide/tricep-pushdown/frame-1.svg",
+        "images/exercises/workout-guide/tricep-pushdown/frame-2.svg",
+        "images/exercises/workout-guide/tricep-pushdown/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/tricep-pushdown/frame-1.svg",
+        "images/exercises/workout-guide/tricep-pushdown/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/tricep-pushdown/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "skull_crusher",
+      "name": "仰卧臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/skull-crusher/frame-1.svg",
+        "images/exercises/workout-guide/skull-crusher/frame-2.svg",
+        "images/exercises/workout-guide/skull-crusher/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/skull-crusher/frame-1.svg",
+        "images/exercises/workout-guide/skull-crusher/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/skull-crusher/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "close_grip_bench",
+      "name": "窄距卧推",
+      "before": [
+        "images/exercises/workout-guide/close-grip-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/close-grip-bench-press/frame-2.svg",
+        "images/exercises/workout-guide/close-grip-bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/close-grip-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/close-grip-bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/close-grip-bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "overhead_ext",
+      "name": "过顶臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-2.svg",
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dumbbell-overhead-tricep-extension/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "crunch",
+      "name": "卷腹",
+      "before": [
+        "images/exercises/workout-guide/crunch/frame-1.svg",
+        "images/exercises/workout-guide/crunch/frame-2.svg",
+        "images/exercises/workout-guide/crunch/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/crunch/frame-1.svg",
+        "images/exercises/workout-guide/crunch/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/crunch/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "side_plank",
+      "name": "侧平板支撑",
+      "before": [
+        "images/exercises/workout-guide/side-plank/frame-1.svg",
+        "images/exercises/workout-guide/side-plank/frame-2.svg",
+        "images/exercises/workout-guide/side-plank/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/side-plank/frame-1.svg",
+        "images/exercises/workout-guide/side-plank/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/side-plank/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "inverted_row",
+      "name": "反向划船",
+      "before": [
+        "images/exercises/workout-guide/inverted-row/frame-1.svg",
+        "images/exercises/workout-guide/inverted-row/frame-2.svg",
+        "images/exercises/workout-guide/inverted-row/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/inverted-row/frame-1.svg",
+        "images/exercises/workout-guide/inverted-row/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/inverted-row/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "smith_squat",
+      "name": "史密斯深蹲",
+      "before": [
+        "images/exercises/workout-guide/smith-machine-squat/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-squat/frame-2.svg",
+        "images/exercises/workout-guide/smith-machine-squat/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/smith-machine-squat/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-squat/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/smith-machine-squat/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_curl",
+      "name": "绳索弯举",
+      "before": [
+        "images/exercises/workout-guide/cable-curl/frame-1.svg",
+        "images/exercises/workout-guide/cable-curl/frame-2.svg",
+        "images/exercises/workout-guide/cable-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cable-curl/frame-1.svg",
+        "images/exercises/workout-guide/cable-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cable-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "bird_dog",
+      "name": "鸟狗式",
+      "before": [
+        "images/exercises/workout-guide/bird-dog/frame-1.svg",
+        "images/exercises/workout-guide/bird-dog/frame-2.svg",
+        "images/exercises/workout-guide/bird-dog/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/bird-dog/frame-1.svg",
+        "images/exercises/workout-guide/bird-dog/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/bird-dog/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "smith_bench_press",
+      "name": "史密斯平板卧推",
+      "before": [
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-2.svg",
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/smith-machine-bench-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "decline_dumbbell_press",
+      "name": "下斜哑铃卧推",
+      "before": [
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-2.svg",
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/decline-dumbbell-press/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "neutral_pullup",
+      "name": "中立握引体向上",
+      "before": [
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-1.svg",
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-2.svg",
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-1.svg",
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/neutral-grip-pull-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "close_pulldown",
+      "name": "窄握高位下拉",
+      "before": [
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-1.svg",
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-2.svg",
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-1.svg",
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/close-grip-lat-pulldown/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "dumbbell_shrug",
+      "name": "哑铃耸肩",
+      "before": [
+        "images/exercises/workout-guide/dumbbell-shrug/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-shrug/frame-2.svg",
+        "images/exercises/workout-guide/dumbbell-shrug/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dumbbell-shrug/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-shrug/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dumbbell-shrug/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "walking_lunge",
+      "name": "行走弓步",
+      "before": [
+        "images/exercises/workout-guide/walking-lunge/frame-1.svg",
+        "images/exercises/workout-guide/walking-lunge/frame-2.svg",
+        "images/exercises/workout-guide/walking-lunge/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/walking-lunge/frame-1.svg",
+        "images/exercises/workout-guide/walking-lunge/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/walking-lunge/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "good_morning",
+      "name": "杠铃早安式",
+      "before": [
+        "images/exercises/workout-guide/good-morning/frame-1.svg",
+        "images/exercises/workout-guide/good-morning/frame-2.svg",
+        "images/exercises/workout-guide/good-morning/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/good-morning/frame-1.svg",
+        "images/exercises/workout-guide/good-morning/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/good-morning/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_pull_through",
+      "name": "绳索胯下拉",
+      "before": [
+        "images/exercises/workout-guide/cable-pull-through/frame-1.svg",
+        "images/exercises/workout-guide/cable-pull-through/frame-2.svg",
+        "images/exercises/workout-guide/cable-pull-through/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cable-pull-through/frame-1.svg",
+        "images/exercises/workout-guide/cable-pull-through/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cable-pull-through/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_kickback",
+      "name": "绳索后踢腿",
+      "before": [
+        "images/exercises/workout-guide/cable-kickback/frame-1.svg",
+        "images/exercises/workout-guide/cable-kickback/frame-2.svg",
+        "images/exercises/workout-guide/cable-kickback/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cable-kickback/frame-1.svg",
+        "images/exercises/workout-guide/cable-kickback/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cable-kickback/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "leg_press_calf_raise",
+      "name": "腿举机提踵",
+      "before": [
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-2.svg",
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/leg-press-calf-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "donkey_calf_raise",
+      "name": "俯身提踵",
+      "before": [
+        "images/exercises/workout-guide/donkey-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/donkey-calf-raise/frame-2.svg",
+        "images/exercises/workout-guide/donkey-calf-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/donkey-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/donkey-calf-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/donkey-calf-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "concentration_curl",
+      "name": "哑铃集中弯举",
+      "before": [
+        "images/exercises/workout-guide/concentration-curl/frame-1.svg",
+        "images/exercises/workout-guide/concentration-curl/frame-2.svg",
+        "images/exercises/workout-guide/concentration-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/concentration-curl/frame-1.svg",
+        "images/exercises/workout-guide/concentration-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/concentration-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "drag_curl",
+      "name": "杠铃拖曳弯举",
+      "before": [
+        "images/exercises/workout-guide/drag-curl/frame-1.svg",
+        "images/exercises/workout-guide/drag-curl/frame-2.svg",
+        "images/exercises/workout-guide/drag-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/drag-curl/frame-1.svg",
+        "images/exercises/workout-guide/drag-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/drag-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_hammer_curl",
+      "name": "绳索锤式弯举",
+      "before": [
+        "images/exercises/workout-guide/rope-hammer-curl/frame-1.svg",
+        "images/exercises/workout-guide/rope-hammer-curl/frame-2.svg",
+        "images/exercises/workout-guide/rope-hammer-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/rope-hammer-curl/frame-1.svg",
+        "images/exercises/workout-guide/rope-hammer-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/rope-hammer-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wrist_curl",
+      "name": "杠铃腕弯举",
+      "before": [
+        "images/exercises/workout-guide/wrist-curl/frame-1.svg",
+        "images/exercises/workout-guide/wrist-curl/frame-2.svg",
+        "images/exercises/workout-guide/wrist-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/wrist-curl/frame-1.svg",
+        "images/exercises/workout-guide/wrist-curl/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/wrist-curl/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "dumbbell_kickback",
+      "name": "哑铃俯身臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/tricep-kickback/frame-1.svg",
+        "images/exercises/workout-guide/tricep-kickback/frame-2.svg",
+        "images/exercises/workout-guide/tricep-kickback/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/tricep-kickback/frame-1.svg",
+        "images/exercises/workout-guide/tricep-kickback/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/tricep-kickback/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "single_overhead_extension",
+      "name": "站姿单臂哑铃颈后臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-2.svg",
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/single-arm-dumbbell-tricep-extension/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_overhead_extension",
+      "name": "绳索过顶臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-2.svg",
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-1.svg",
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/overhead-tricep-extension/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "bench_dip",
+      "name": "凳上臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/bench-dip/frame-1.svg",
+        "images/exercises/workout-guide/bench-dip/frame-2.svg",
+        "images/exercises/workout-guide/bench-dip/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/bench-dip/frame-1.svg",
+        "images/exercises/workout-guide/bench-dip/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/bench-dip/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "bicycle_crunch",
+      "name": "自行车卷腹",
+      "before": [
+        "images/exercises/workout-guide/bicycle-crunch/frame-1.svg",
+        "images/exercises/workout-guide/bicycle-crunch/frame-2.svg",
+        "images/exercises/workout-guide/bicycle-crunch/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/bicycle-crunch/frame-1.svg",
+        "images/exercises/workout-guide/bicycle-crunch/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/bicycle-crunch/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "lying_leg_raise",
+      "name": "仰卧举腿",
+      "before": [
+        "images/exercises/workout-guide/lying-leg-raise/frame-1.svg",
+        "images/exercises/workout-guide/lying-leg-raise/frame-2.svg",
+        "images/exercises/workout-guide/lying-leg-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/lying-leg-raise/frame-1.svg",
+        "images/exercises/workout-guide/lying-leg-raise/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/lying-leg-raise/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "hanging_knee_raise",
+      "name": "悬垂提膝",
+      "before": [
+        "images/exercises/workout-guide/hanging-knee-raise/frame-1.svg",
+        "images/exercises/workout-guide/hanging-knee-raise/frame-2.svg",
+        "images/exercises/workout-guide/hanging-knee-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/hanging-knee-raise/frame-1.svg",
+        "images/exercises/workout-guide/hanging-knee-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/hanging-knee-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "cable_woodchop",
+      "name": "绳索伐木",
+      "before": [
+        "images/exercises/workout-guide/cable-woodchop/frame-1.svg",
+        "images/exercises/workout-guide/cable-woodchop/frame-2.svg",
+        "images/exercises/workout-guide/cable-woodchop/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cable-woodchop/frame-1.svg",
+        "images/exercises/workout-guide/cable-woodchop/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cable-woodchop/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_cable_fly",
+      "name": "站姿绳索飞鸟",
+      "before": [
+        "images/exercises/workout-guide/cable-fly/frame-1.svg",
+        "images/exercises/workout-guide/cable-fly/frame-2.svg",
+        "images/exercises/workout-guide/cable-fly/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cable-fly/frame-1.svg",
+        "images/exercises/workout-guide/cable-fly/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cable-fly/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_upright_row",
+      "name": "杠铃直立划船",
+      "before": [
+        "images/exercises/workout-guide/upright-row/frame-1.svg",
+        "images/exercises/workout-guide/upright-row/frame-2.svg",
+        "images/exercises/workout-guide/upright-row/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/upright-row/frame-1.svg",
+        "images/exercises/workout-guide/upright-row/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/upright-row/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_step_up",
+      "name": "哑铃台阶上步",
+      "before": [
+        "images/exercises/workout-guide/step-up/frame-1.svg",
+        "images/exercises/workout-guide/step-up/frame-2.svg",
+        "images/exercises/workout-guide/step-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/step-up/frame-1.svg",
+        "images/exercises/workout-guide/step-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/step-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_standing_calf_raise",
+      "name": "器械站姿提踵",
+      "before": [
+        "images/exercises/workout-guide/standing-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/standing-calf-raise/frame-2.svg",
+        "images/exercises/workout-guide/standing-calf-raise/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/standing-calf-raise/frame-1.svg",
+        "images/exercises/workout-guide/standing-calf-raise/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/standing-calf-raise/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_bicep_curl",
+      "name": "双臂哑铃弯举",
+      "before": [
+        "images/exercises/workout-guide/bicep-curl/frame-1.svg",
+        "images/exercises/workout-guide/bicep-curl/frame-2.svg",
+        "images/exercises/workout-guide/bicep-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/bicep-curl/frame-1.svg",
+        "images/exercises/workout-guide/bicep-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/bicep-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_preacher_curl",
+      "name": "器械牧师弯举",
+      "before": [
+        "images/exercises/workout-guide/preacher-curl/frame-1.svg",
+        "images/exercises/workout-guide/preacher-curl/frame-2.svg",
+        "images/exercises/workout-guide/preacher-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/preacher-curl/frame-1.svg",
+        "images/exercises/workout-guide/preacher-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/preacher-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_dip",
+      "name": "双杠臂屈伸（三头侧重）",
+      "before": [
+        "images/exercises/workout-guide/dip/frame-1.svg",
+        "images/exercises/workout-guide/dip/frame-2.svg",
+        "images/exercises/workout-guide/dip/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dip/frame-1.svg",
+        "images/exercises/workout-guide/dip/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dip/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_running",
+      "name": "跑步机跑步",
+      "before": [
+        "images/exercises/workout-guide/running/frame-1.svg",
+        "images/exercises/workout-guide/running/frame-2.svg",
+        "images/exercises/workout-guide/running/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/running/frame-1.svg",
+        "images/exercises/workout-guide/running/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/running/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_walking",
+      "name": "跑步机步行",
+      "before": [
+        "images/exercises/workout-guide/walking/frame-1.svg",
+        "images/exercises/workout-guide/walking/frame-2.svg",
+        "images/exercises/workout-guide/walking/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/walking/frame-1.svg",
+        "images/exercises/workout-guide/walking/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/walking/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_weighted_dip",
+      "name": "负重双杠臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/weighted-dip/frame-1.svg",
+        "images/exercises/workout-guide/weighted-dip/frame-2.svg",
+        "images/exercises/workout-guide/weighted-dip/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/weighted-dip/frame-1.svg",
+        "images/exercises/workout-guide/weighted-dip/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/weighted-dip/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_standing_dumbbell_press",
+      "name": "站姿双臂哑铃推举",
+      "before": [
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-2.svg",
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-1.svg",
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/standing-dumbbell-press/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_reverse_lunge",
+      "name": "哑铃后撤弓步",
+      "before": [
+        "images/exercises/workout-guide/reverse-lunge/frame-1.svg",
+        "images/exercises/workout-guide/reverse-lunge/frame-2.svg",
+        "images/exercises/workout-guide/reverse-lunge/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/reverse-lunge/frame-1.svg",
+        "images/exercises/workout-guide/reverse-lunge/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/reverse-lunge/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_smith_machine_hip_thrust",
+      "name": "史密斯臀冲",
+      "before": [
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-2.svg",
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-1.svg",
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/smith-machine-hip-thrust/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_wall_sit",
+      "name": "靠墙静蹲",
+      "before": [
+        "images/exercises/workout-guide/wall-sit/frame-1.svg",
+        "images/exercises/workout-guide/wall-sit/frame-2.svg",
+        "images/exercises/workout-guide/wall-sit/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/wall-sit/frame-1.svg",
+        "images/exercises/workout-guide/wall-sit/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/wall-sit/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_jump_squat",
+      "name": "徒手深蹲跳",
+      "before": [
+        "images/exercises/workout-guide/jump-squat/frame-1.svg",
+        "images/exercises/workout-guide/jump-squat/frame-2.svg",
+        "images/exercises/workout-guide/jump-squat/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/jump-squat/frame-1.svg",
+        "images/exercises/workout-guide/jump-squat/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/jump-squat/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_ez_bar_curl",
+      "name": "EZ曲杆弯举",
+      "before": [
+        "images/exercises/workout-guide/ez-bar-curl/frame-1.svg",
+        "images/exercises/workout-guide/ez-bar-curl/frame-2.svg",
+        "images/exercises/workout-guide/ez-bar-curl/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/ez-bar-curl/frame-1.svg",
+        "images/exercises/workout-guide/ez-bar-curl/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/ez-bar-curl/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_rope_tricep_pushdown",
+      "name": "绳索绳柄下压",
+      "before": [
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-1.svg",
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-2.svg",
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-1.svg",
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/rope-tricep-pushdown/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_dumbbell_skull_crusher",
+      "name": "双哑铃仰卧臂屈伸",
+      "before": [
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-2.svg",
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-1.svg",
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/dumbbell-skull-crusher/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_decline_sit_up",
+      "name": "下斜凳仰卧起坐",
+      "before": [
+        "images/exercises/workout-guide/decline-sit-up/frame-1.svg",
+        "images/exercises/workout-guide/decline-sit-up/frame-2.svg",
+        "images/exercises/workout-guide/decline-sit-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/decline-sit-up/frame-1.svg",
+        "images/exercises/workout-guide/decline-sit-up/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/decline-sit-up/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_elliptical",
+      "name": "椭圆机训练",
+      "before": [
+        "images/exercises/workout-guide/elliptical/frame-1.svg",
+        "images/exercises/workout-guide/elliptical/frame-2.svg",
+        "images/exercises/workout-guide/elliptical/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/elliptical/frame-1.svg",
+        "images/exercises/workout-guide/elliptical/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/elliptical/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_feet_elevated_pike_push_up",
+      "name": "垫脚屈髋俯卧撑",
+      "before": [
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-1.svg",
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-2.svg",
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-1.svg",
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/feet-elevated-pike-push-up/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_wall_walk",
+      "name": "靠墙行走倒立",
+      "before": [
+        "images/exercises/workout-guide/wall-walk/frame-1.svg",
+        "images/exercises/workout-guide/wall-walk/frame-2.svg",
+        "images/exercises/workout-guide/wall-walk/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/wall-walk/frame-1.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/wall-walk/frame-2.svg",
+        "images/exercises/workout-guide/wall-walk/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_l_sit_pull_up",
+      "name": "L型引体向上",
+      "before": [
+        "images/exercises/workout-guide/l-sit-pull-up/frame-1.svg",
+        "images/exercises/workout-guide/l-sit-pull-up/frame-2.svg",
+        "images/exercises/workout-guide/l-sit-pull-up/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/l-sit-pull-up/frame-1.svg",
+        "images/exercises/workout-guide/l-sit-pull-up/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/l-sit-pull-up/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_cossack_squat",
+      "name": "哥萨克深蹲",
+      "before": [
+        "images/exercises/workout-guide/cossack-squat/frame-1.svg",
+        "images/exercises/workout-guide/cossack-squat/frame-2.svg",
+        "images/exercises/workout-guide/cossack-squat/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/cossack-squat/frame-1.svg",
+        "images/exercises/workout-guide/cossack-squat/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/cossack-squat/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_l_sit_hold",
+      "name": "双杠L型支撑",
+      "before": [
+        "images/exercises/workout-guide/l-sit-hold/frame-1.svg",
+        "images/exercises/workout-guide/l-sit-hold/frame-2.svg",
+        "images/exercises/workout-guide/l-sit-hold/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/l-sit-hold/frame-1.svg",
+        "images/exercises/workout-guide/l-sit-hold/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/l-sit-hold/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_seated_knee_tuck",
+      "name": "支撑收膝",
+      "before": [
+        "images/exercises/workout-guide/seated-knee-tuck/frame-1.svg",
+        "images/exercises/workout-guide/seated-knee-tuck/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/seated-knee-tuck/frame-1.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/seated-knee-tuck/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_half_burpee",
+      "name": "半波比跳",
+      "before": [
+        "images/exercises/workout-guide/half-burpee/frame-1.svg",
+        "images/exercises/workout-guide/half-burpee/frame-2.svg",
+        "images/exercises/workout-guide/half-burpee/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/half-burpee/frame-1.svg",
+        "images/exercises/workout-guide/half-burpee/frame-3.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/half-burpee/frame-2.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_high_knees",
+      "name": "原地高抬腿",
+      "before": [
+        "images/exercises/workout-guide/high-knees/frame-1.svg",
+        "images/exercises/workout-guide/high-knees/frame-2.svg",
+        "images/exercises/workout-guide/high-knees/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/high-knees/frame-1.svg",
+        "images/exercises/workout-guide/high-knees/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/high-knees/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    },
+    {
+      "id": "wg_lateral_shuffle",
+      "name": "侧向滑步",
+      "before": [
+        "images/exercises/workout-guide/lateral-shuffle/frame-1.svg",
+        "images/exercises/workout-guide/lateral-shuffle/frame-2.svg",
+        "images/exercises/workout-guide/lateral-shuffle/frame-3.svg"
+      ],
+      "display": [
+        "images/exercises/workout-guide/lateral-shuffle/frame-1.svg",
+        "images/exercises/workout-guide/lateral-shuffle/frame-2.svg"
+      ],
+      "removed": [
+        "images/exercises/workout-guide/lateral-shuffle/frame-3.svg"
+      ],
+      "replacement": null,
+      "reason": "line weight differs from the matching fine-line frames"
+    }
+  ]
+}

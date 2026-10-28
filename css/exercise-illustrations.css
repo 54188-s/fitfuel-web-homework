@@ -1,0 +1,143 @@
+/* Local exercise illustrations. No external font, image or runtime dependency. */
+#libraryGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#libraryGrid .illustrated-card{display:grid;grid-template-columns:minmax(120px,34%) minmax(0,1fr);gap:18px;padding:18px;align-items:start;background:#0b151f;border:1px solid #23333f;border-radius:16px;overflow:hidden}
+.exercise-preview{display:flex;align-items:center;justify-content:center;min-width:0;height:210px;border-radius:10px;background:#070c12;overflow:hidden}
+.exercise-preview img{display:block;width:100%;height:100%;object-fit:contain;padding:8px}
+.diagram-invert img,img.diagram-invert{filter:invert(1);mix-blend-mode:screen}
+.exercise-card-copy{min-width:0}
+.exercise-card-copy h3{font-size:1.08rem;line-height:1.5;margin:8px 0}
+.exercise-card-copy p{font-size:.86rem;line-height:1.7;margin:7px 0}
+.exercise-card-copy .exercise-muscles{color:#9fc6b8}
+.exercise-card-copy .exercise-card-desc{color:#aabac7}
+.exercise-card-copy small{display:block;color:#9bacba;line-height:1.6}
+.exercise-card-copy .actions{gap:8px;margin-top:14px}
+.exercise-card-copy .actions a,.exercise-card-copy .actions button{font-size:.8rem;min-height:38px;padding:8px 10px}
+.exercise-card [data-fav][aria-pressed="true"],#detailFavorite[aria-pressed="true"]{background:#123c30;border-color:#00d99c;color:#8fffd7}
+.exercise-preview:focus-visible,.exercise-zoom:focus-visible{outline:3px solid #00e6aa;outline-offset:4px}
+.library-more{grid-column:1/-1;text-align:center;padding:14px}
+.library-more p{font-size:.84rem;color:#9bacba}
+.library-overview{margin:16px 0 24px;border:1px solid #23333f;border-radius:12px;background:#0b151f;padding:16px 20px}
+.library-overview>summary{cursor:pointer;color:#8fffd7;font-weight:600;padding:4px 0}
+.library-overview[open]>summary{margin-bottom:24px}
+.library-overview .body-atlas{margin-top:0}
+.exercise-teaching,#librarySearch{scroll-margin-top:100px}
+body[data-page="exercise"] .course-media-grid{grid-template-columns:1fr;max-width:760px;margin-inline:auto}
+.exercise-summary{margin-bottom:24px}
+.exercise-summary h2{font-size:clamp(1.6rem,3vw,2.35rem);margin:10px 0 16px}
+.exercise-back{display:inline-block;color:#9db6bd;font-size:.88rem;margin-bottom:20px}
+.exercise-meta{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.exercise-meta span{border:1px solid #2b3b47;border-radius:6px;padding:6px 10px;font-size:.8rem;color:#b8cad3}
+.exercise-recording-note{font-size:.82rem;color:#9bacba;margin:14px 0 0;line-height:1.7}
+.exercise-teaching{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);gap:24px;align-items:start}
+.exercise-figure{min-width:0;margin:0;border:1px solid #243641;border-radius:16px;overflow:hidden;background:#070c12}
+.exercise-zoom{display:block;position:relative;border:0;padding:12px;width:100%;min-height:320px;aspect-ratio:4/3;border-radius:0;background:#070c12;cursor:zoom-in;color:#9cb5bc}
+.exercise-zoom img{display:block;width:100%;height:100%;object-fit:contain;position:absolute;inset:0;padding:16px 12px 40px}
+.exercise-zoom span{position:absolute;right:16px;bottom:14px;font-size:.8rem;color:#8fffd7}
+.exercise-figure figcaption{display:grid;gap:8px;padding:20px;border-top:1px solid #23333f;font-size:.78rem;line-height:1.6}
+.exercise-figure figcaption strong{font-size:.94rem;color:#d9e7ed}
+.exercise-figure figcaption span{color:#9bacba}
+.exercise-figure figcaption a{color:#68daba;text-decoration:underline;text-underline-offset:3px}
+.exercise-instructions{min-width:0}
+.exercise-instructions h2{margin-top:8px}
+.exercise-steps{counter-reset:movement;list-style:none;padding:0;margin:24px 0 28px}
+.exercise-steps li{counter-increment:movement;position:relative;padding:0 0 22px 44px;line-height:1.9;color:#cbd9e1}
+.exercise-steps li::before{content:counter(movement,decimal-leading-zero);position:absolute;left:0;top:2px;color:#00e6aa;font:600 .86rem/1.8 monospace}
+.exercise-instructions details{border-top:1px solid #263843;padding:16px 0}
+.exercise-instructions details p{line-height:1.9;font-size:.9rem;color:#aabac7}
+.diagram-lightbox-heading{display:flex;gap:16px;justify-content:space-between;align-items:center}
+.diagram-lightbox img{display:block;width:100%;max-height:72vh;object-fit:contain;background:#070c12;margin:16px 0}
+.diagram-lightbox img.diagram-invert{background:white}
+.diagram-lightbox p{font-size:.8rem;color:#aabac7}
+dialog:has(.diagram-lightbox){width:min(1160px,94vw);max-width:94vw}
+@media(max-width:1050px){#libraryGrid{grid-template-columns:1fr}.exercise-teaching{gap:18px}.exercise-zoom{min-height:270px}}
+@media(max-width:700px){.exercise-teaching{grid-template-columns:1fr}.exercise-zoom{min-height:260px;max-height:440px}.exercise-summary{padding:22px}.exercise-figure figcaption{padding:16px}.exercise-instructions{padding:22px}}
+@media(max-width:440px){#libraryGrid .illustrated-card{grid-template-columns:minmax(92px,31%) minmax(0,1fr);gap:12px;padding:14px}.exercise-preview{height:185px}.exercise-card-copy h3{font-size:1rem}.exercise-card-copy .exercise-card-desc{font-size:.8rem}.exercise-card-copy .actions{gap:6px}.exercise-card-copy .actions a,.exercise-card-copy .actions button{padding:8px;font-size:.75rem}.exercise-preview img{padding:3px}}
+
+/* Same-action illustration groups and the training atlas reading layout. */
+body[data-page="library"],body[data-page="exercise"]{background:#080f15}
+body[data-page="library"] main,body[data-page="exercise"] main{max-width:1440px;padding:36px 48px 80px}
+.library-heading-copy{display:flex;align-items:end;justify-content:space-between;gap:32px;padding:8px 0 20px}
+.library-heading-copy h1{font-size:clamp(36px,4.2vw,60px);line-height:1.15;letter-spacing:-.03em;margin:0}
+.library-heading-copy p{margin:0;max-width:36ch;color:#a9c3bc;line-height:1.9;font-size:.9rem}
+.library-workspace{display:grid;grid-template-columns:210px minmax(0,1fr);gap:36px;align-items:start;margin-top:28px}
+.library-tools{position:sticky;top:94px;min-width:0}
+.frame-content .library-tools{top:24px}
+.library-tools h2{font-size:1.05rem;margin:0 0 20px;letter-spacing:0}
+.library-tools .search{display:grid;gap:8px;font-size:.8rem;color:#adbbb7;margin:0 0 28px}
+.library-tools input{width:100%;min-width:0;font-size:.86rem;padding:12px 10px;border-radius:6px;caret-color:var(--mint)}
+.library-tools h3{font-size:.8rem;font-weight:500;color:#9bb2a9;margin:0 0 10px}
+#libraryCategories{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:0}
+#libraryCategories button{border:1px solid transparent;border-radius:5px;background:transparent;color:#afc2ba;font-size:.8rem;padding:8px 6px;min-height:38px;text-align:left;line-height:1.5}
+#libraryCategories button.active{background:#15382c;border-color:#27634c;color:#a2ffcf}
+#libraryCategories button:hover{color:#e3ffed;background:#14271f}
+#libraryCategories [data-scope="favorites"],#libraryCategories [data-scope="recent"]{margin-top:16px}
+#libraryCount{font-size:.76rem;line-height:1.8;margin:24px 0 12px;min-height:2.8em;color:#9db6aa}
+.library-source-link{font-size:.75rem;color:#7cdab6;text-decoration:underline;text-underline-offset:4px}
+.library-results-heading{display:flex;justify-content:space-between;gap:20px;align-items:baseline;border-bottom:1px solid #294035;padding:0 0 14px}
+.library-results-heading h2{font-size:1.05rem;letter-spacing:0;margin:0}
+.library-results-heading p{font-size:.75rem;color:#9db6aa;margin:0}
+#libraryGrid{grid-template-columns:1fr;gap:0}
+#libraryGrid .illustrated-card{grid-template-columns:minmax(200px,36%) minmax(0,1fr);gap:28px;padding:24px 0;align-items:center;background:transparent;border:0;border-bottom:1px solid #20362c;border-radius:0;overflow:visible;box-shadow:none}
+.exercise-card-copy .tag{background:none;color:#a2ffcf;border-radius:0;padding:0;font-size:.76rem}
+.exercise-card-copy h3{font-size:1.4rem;line-height:1.45;margin:7px 0 14px;letter-spacing:-.02em}
+.exercise-card-copy h3 a:hover{color:#a2ffcf}
+.exercise-card-copy p{font-size:.86rem;line-height:1.8;margin:8px 0}
+.exercise-card-copy .exercise-muscles{color:#b6d5c4}
+.exercise-card-copy .exercise-card-desc{color:#a4b7af;max-width:55ch}
+.exercise-card-copy small{color:#9cb3a7;line-height:1.7;font-size:.78rem;margin-top:12px}
+.exercise-card-copy .actions{gap:8px;margin-top:20px}
+.exercise-card-copy .actions a,.exercise-card-copy .actions button{font-size:.78rem;min-height:38px;padding:8px 12px;border-radius:6px;background:transparent;border-color:#355444}
+.exercise-card [data-fav][aria-pressed="true"],#detailFavorite[aria-pressed="true"]{background:#183f2f;border-color:#57db9d;color:#b1ffd4}
+.exercise-preview:focus-visible,.exercise-zoom:focus-visible,.motion-controls button:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+.exercise-visual{min-width:0;display:flex;flex-direction:column;position:relative;background:#060b0f;border-radius:10px;overflow:hidden}
+.exercise-preview{display:block;position:relative;min-width:0;height:235px;background:#060b0f;overflow:hidden;order:-1;border-radius:0}
+.exercise-preview img{display:block;width:100%;height:100%;object-fit:contain;padding:16px}
+.motion-controls{display:flex;align-items:center;gap:8px;min-height:44px;padding:2px 8px;background:#101e18;border-top:1px solid #21362b;color:#a1c6b1}
+.motion-controls button{display:inline-flex;justify-content:center;align-items:center;flex-shrink:0;width:36px;height:36px;padding:0;border:0;border-radius:4px;color:#c0e8d0;background:transparent}
+.motion-controls button:hover{background:#244b36;color:#c8ffe0}
+.motion-count{font-size:.74rem;font-variant-numeric:tabular-nums;white-space:nowrap;line-height:1.5}
+.motion-count b{font-weight:600;color:#a1ffca}
+.motion-arrows{margin-left:auto;display:flex;gap:2px}
+.motion-single{margin:0;min-height:44px;display:flex;align-items:center;justify-content:center;font-size:.72rem;color:#96b9a4;background:#101e18;border-top:1px solid #21362b}
+.motion-error{padding:10px 12px;margin:0;font-size:.76rem;color:#f4cf8d}
+.library-overview{margin:10px 0 24px;border:1px solid #233b30;border-radius:6px;background:#0c1914;padding:12px 18px}
+.library-overview>summary{color:#aff4cd;font-weight:500;font-size:.86rem}
+.library-overview .eyebrow,.library-overview .atlas-stage-caption{font-size:12px}
+.exercise-summary{margin-bottom:30px;padding:20px 0 32px;background:none;border:0;border-bottom:1px solid #294035;border-radius:0;box-shadow:none}
+.exercise-summary h2{font-size:clamp(30px,3.6vw,46px);line-height:1.25;letter-spacing:-.03em;margin:8px 0 20px}
+.exercise-summary>p{max-width:70ch}
+.exercise-category{font-size:.8rem;color:#9cf2bf;margin:18px 0 8px}
+.exercise-back{color:#a1beb0;font-size:.84rem;margin-bottom:6px}
+.exercise-meta{margin:20px 0}
+.exercise-meta span{border-color:#355243;border-radius:5px;font-size:.78rem;color:#b7d6c4}
+.exercise-teaching{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:40px}
+.exercise-figure{background:#060b0f;border-color:#243e30;border-radius:12px}
+.exercise-figure .exercise-visual{border-radius:0}
+.exercise-zoom{order:-1;min-height:330px;background:#060b0f}
+.exercise-zoom img{padding:22px 16px 46px}
+.exercise-zoom span{font-size:.76rem;color:#a1ffca}
+.exercise-figure figcaption{border-top-color:#233a2d;font-size:.75rem;line-height:1.8}
+.exercise-figure figcaption strong{font-size:.9rem;color:#deeee5}
+.exercise-figure figcaption span{color:#a1b9ab}
+.exercise-figure figcaption a{color:#87dcb0}
+.exercise-instructions{background:none;border:0;border-radius:0;box-shadow:none;padding:4px 0}
+.exercise-instructions h2{font-size:1.7rem;margin:0 0 28px}
+.exercise-instructions h3{font-size:.96rem}
+.exercise-steps li{padding-bottom:24px;color:#c5dbce;font-size:.93rem}
+.exercise-steps li::before{color:#83efb2;font-family:inherit;font-size:.84rem;font-variant-numeric:tabular-nums}
+.exercise-instructions details{border-top-color:#294035;padding:18px 0}
+.exercise-instructions details p{font-size:.86rem;color:#a7beb0}
+.diagram-lightbox-heading h2{font-size:1.35rem;margin:0}
+.motion-enlarged{order:-1;display:flex;min-height:300px;height:65vh;max-height:720px}
+.motion-enlarged img{display:block;width:100%;height:100%;object-fit:contain;padding:16px;background:#060b0f;margin:0;max-height:none}
+.motion-enlarged.diagram-invert img{background:white}
+.motion-lightbox .motion-controls{justify-content:center}
+.motion-lightbox .motion-arrows{margin-left:16px}
+.motion-lightbox{margin:18px 0}
+dialog:has(.diagram-lightbox){width:min(1100px,94vw);max-width:94vw;background:#0a1610;border-color:#355243}
+body[data-page="exercise"] .page-heading{padding-bottom:0}
+body[data-page="exercise"] .page-heading h1{font-size:1rem;letter-spacing:0;font-weight:500;color:#a6c3b2}
+body[data-page="exercise"] .page-heading .breadcrumb{margin-bottom:16px}
+@media(max-width:1050px){body[data-page="library"] main,body[data-page="exercise"] main{padding-inline:28px}.library-workspace{grid-template-columns:180px minmax(0,1fr);gap:24px}#libraryGrid .illustrated-card{grid-template-columns:minmax(160px,36%) minmax(0,1fr);gap:20px}.exercise-preview{height:220px}.exercise-card-copy h3{font-size:1.2rem}.library-results-heading{display:block}.library-results-heading p{margin-top:8px}.exercise-teaching{gap:26px}.exercise-zoom{min-height:280px}}
+@media(max-width:760px){.library-heading-copy{display:block}.library-heading-copy p{margin-top:20px}.library-workspace{grid-template-columns:1fr;gap:28px}.library-tools{position:static}.library-tools .search{margin-bottom:20px}#libraryCategories{grid-template-columns:repeat(4,minmax(0,1fr))}#libraryCategories [data-scope]{margin-top:0}#libraryCount{margin-top:16px;min-height:0}.library-tools h2{display:none}.library-source-link{display:inline-block}.exercise-teaching{grid-template-columns:1fr}.exercise-zoom{min-height:300px}.exercise-summary{padding-top:10px}.exercise-instructions{padding-top:6px}}
+@media(max-width:460px){body[data-page="library"] main,body[data-page="exercise"] main{padding-inline:18px}.library-heading-copy h1{font-size:36px}#libraryGrid .illustrated-card{grid-template-columns:minmax(120px,38%) minmax(0,1fr);gap:16px;padding-block:22px}.exercise-preview{height:185px}.exercise-preview img{padding:6px}.exercise-card-copy h3{font-size:1.05rem;margin-bottom:10px}.exercise-card-copy p{font-size:.78rem;line-height:1.7}.exercise-card-copy small{font-size:.74rem}.exercise-card-copy .actions{margin-top:14px;gap:6px}.exercise-card-copy .actions a,.exercise-card-copy .actions button{font-size:.73rem;padding:7px 9px;min-height:36px}.motion-controls{padding:3px 2px;gap:2px}.motion-controls button{width:28px;height:36px}.motion-arrows{gap:0}.motion-count{font-size:.67rem}.exercise-figure figcaption{padding:16px}.exercise-zoom{min-height:280px}.exercise-meta span{font-size:.74rem}.exercise-steps li{font-size:.9rem}}

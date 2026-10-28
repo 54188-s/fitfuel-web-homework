@@ -1,0 +1,206 @@
+[
+  {
+    "path": "account.html",
+    "sha256": "39e2f84a014c7647b2ee2bcc1b8ecbbdda4f36d446135b4a1169c56d25368d9b"
+  },
+  {
+    "path": "analysis.html",
+    "sha256": "6e90b2a264e73304b2bf43845b959ab87173b402b6d6d436f9e4194d97f49a52"
+  },
+  {
+    "path": "body.html",
+    "sha256": "3544bde880a3aaba964f8e8556f38758f4e346cf54225dc60b2879bfdb41ca07"
+  },
+  {
+    "path": "cardio.html",
+    "sha256": "4f38d1bd4651b96037f112164479aa307bedec7b17836b7dbc349431de1df9f4"
+  },
+  {
+    "path": "exercise.html",
+    "sha256": "e13b366e7311434023fb35c08f1bd1e6ca1a34c165015e3b0519e6c4761fc0a9"
+  },
+  {
+    "path": "foods.html",
+    "sha256": "635f6d89e721c35128948b292071dfa7cbc10412ca363e6f5bfac902f1b74dee"
+  },
+  {
+    "path": "index.html",
+    "sha256": "ded77ccdaf0f43eff339f380338e17a972314bd77c267c37ba9c71d14b70e75f"
+  },
+  {
+    "path": "library.html",
+    "sha256": "c66905c6086e27aa62bbe87441651cfde7cfaef0d670d06ff8296c1004a53379"
+  },
+  {
+    "path": "meals.html",
+    "sha256": "0807152cfcc38a825b526ee0bfbe8e6f6b541b7554cb6e21c1b9c66f54bda900"
+  },
+  {
+    "path": "metrics.html",
+    "sha256": "82e5b44b44061c56e8ff23ba1fb3cd4130352106e2747d6521eb77708a5028c0"
+  },
+  {
+    "path": "nutrition.html",
+    "sha256": "56e664060a4cc8e1da9f1aada858dcd1c3e80ccfe6902c07e60cb4b8d18a668e"
+  },
+  {
+    "path": "OCR接口说明.md",
+    "sha256": "4d2869552c1a192a00211084c34c3eb3b561da9cbc8d8bae3ec525d6fb90c57f"
+  },
+  {
+    "path": "README.md",
+    "sha256": "1a2d3500c0254933d9765499f815db20f010fff1ab13eef4f5c9e57b0e32e752"
+  },
+  {
+    "path": "strength.html",
+    "sha256": "a1c0be39e1b632406978da8c5d8de2a2bc805b97bae5723cb726350b6d093cea"
+  },
+  {
+    "path": "training.html",
+    "sha256": "4a65bc2aa43cae2813a92b31e4b2c712315258caf8ddf51d3792f4c072654f8f"
+  },
+  {
+    "path": "user.html",
+    "sha256": "7d132c94bade43dd9800a02ebc5ca0c5d3fe2c6bacbaf1b3acad04c48ded2137"
+  },
+  {
+    "path": "weight.html",
+    "sha256": "18c64c3c7f3a39b6b92dc6907948004cf00c2da6057e654f44da97e03c7a2891"
+  },
+  {
+    "path": "增强版验收报告.md",
+    "sha256": "d1fe77f38ac2c6afb345257024bc25fffbb544e5e4261790d1a0d07b8a106011"
+  },
+  {
+    "path": "验收报告.md",
+    "sha256": "4bc994fd08fe03c6b65b8404b2fdd3955f0d06982451f3b399be7fb97f7d63d7"
+  },
+  {
+    "path": "验收数据.json",
+    "sha256": "9425f17d853bfeccd9787d3b17f1ae1b500c6a8a29e66426479147e8df5e15a0"
+  },
+  {
+    "path": "css/animations.css",
+    "sha256": "7d070333d02759fdb5d8968e0144ac85bc8605434b059c6024ae0588fc4b302b"
+  },
+  {
+    "path": "css/components.css",
+    "sha256": "741dc4e286ae7c65756d6d4a794737fc3884f51b26b3754a0bc417125403bd66"
+  },
+  {
+    "path": "css/enhancements.css",
+    "sha256": "2e34036adb58a02814c8f13bacb439c0d385a2a07ea91eb6a875f8c9f9345674"
+  },
+  {
+    "path": "css/responsive.css",
+    "sha256": "bca2bcb53b1e820fb75755d8e0b659ab8363a0fb50e2f79fb7256ec95a28ca2b"
+  },
+  {
+    "path": "css/style.css",
+    "sha256": "ebfe445689470895bc4b977c21e14cb2a4b4b7249681245dd27dd9a5da462c22"
+  },
+  {
+    "path": "js/account.js",
+    "sha256": "952365f3db0057bdcb5d4413a5dfdfafbf1106ad1fe3b28bb2bab3c77c83e131"
+  },
+  {
+    "path": "js/analysis.js",
+    "sha256": "3ae7534373242b87c56d2fa0445641e2f7b948dbddca111a64153287cb8dd150"
+  },
+  {
+    "path": "js/app.js",
+    "sha256": "7ef573394e355a977da2cd0d9f60c5b2a3e9131373535feb4838fa0961f3c23a"
+  },
+  {
+    "path": "js/body.js",
+    "sha256": "45c9ec88e8b89019d301057ef2bda0efa61d01bb3c261d455373981b4dab0ec7"
+  },
+  {
+    "path": "js/calculator.js",
+    "sha256": "7d80f1e8ae719fa27c456fa8bdc18d2218a1a2e480cfcca7730e2ddd64edcfe3"
+  },
+  {
+    "path": "js/cardio.js",
+    "sha256": "193e631691bcf93cb9b03bc7bb02d1fb495ab295588f9d3bd40471fde18290f3"
+  },
+  {
+    "path": "js/data.js",
+    "sha256": "da6e659bca50e9e1e734eec977f1700217f97ddbd85e29cd5985072dee78055b"
+  },
+  {
+    "path": "js/food-editor.js",
+    "sha256": "ec2b4cd572f2385b98dba2f0fad8d2c80aa4e028669eb070c50b623bd08c843c"
+  },
+  {
+    "path": "js/food-model.js",
+    "sha256": "e55fe05e74465056c442faa2e726163f0ffd69ae0cf6e5b4ba052897c0310b89"
+  },
+  {
+    "path": "js/home.js",
+    "sha256": "dc891fa1179d2a46d9630f356adb4257d1b4631877cc14b3c7d885b64e990c8f"
+  },
+  {
+    "path": "js/library.js",
+    "sha256": "08bbff8990678e2438999ec219cdf5b7e7ec7716f0c739aa630d861121c410e1"
+  },
+  {
+    "path": "js/nutrition.js",
+    "sha256": "d393b8ee6d45c1003215be5d32d4eea4b32b9d5748aa60f397157ce9ad766be2"
+  },
+  {
+    "path": "js/ocr.js",
+    "sha256": "51c090159dffc22557cf436d7ae6d0dd36fc6de3512e4cae9673bc0a14c88163"
+  },
+  {
+    "path": "js/pickers.js",
+    "sha256": "f5b54f24dec9357f1091a7ed04c76606ba3473328db7c359ab1c1580d21a6ed0"
+  },
+  {
+    "path": "js/search.js",
+    "sha256": "3373d5312172e51c30ce738e02d3ad25b2a753d4ff40173c92029a1800338b01"
+  },
+  {
+    "path": "js/storage.js",
+    "sha256": "36b2f95e3d7282fbb80e25347e569219a3420f0cfcee044824a29d5859a78c47"
+  },
+  {
+    "path": "js/strength.js",
+    "sha256": "b667df9cb3bed93e4cecd4ed302f2d6998bf4ddb4610793100189e9699ee090f"
+  },
+  {
+    "path": "js/training.js",
+    "sha256": "dcd4843ba9f0c8c76024b640b5e2b80db2dd4d8d4399ad93c6121f4a33006d42"
+  },
+  {
+    "path": "js/ui.js",
+    "sha256": "7a5b288d228d84657ae94440e90f3ba4a5d8152b0d890eba77561d5925feaa58"
+  },
+  {
+    "path": "js/user.js",
+    "sha256": "3516317579a5c4a89a4f6fda3ae778b6f6b533978c531e23fdd3bfef03e0b631"
+  },
+  {
+    "path": "js/weight.js",
+    "sha256": "5b50369a33c12be151aa6f442f21bed79ab6572a168a8dcf165c1c751cab90b4"
+  },
+  {
+    "path": "video/fitfuel-intro.mp4",
+    "sha256": "a78d5d836c742042486ebaf420a08270ff4ae7fee4ec695c1df46a4bd616fed9"
+  },
+  {
+    "path": "images/hero/slide-1.jpg",
+    "sha256": "8befc4aa60fc2b2e11b1e9725642c2a3dd36d71e2c27660bda4e743a21808da8"
+  },
+  {
+    "path": "images/hero/slide-2.jpg",
+    "sha256": "eab8bc4f41abba04544b3a5a2bb2dea35483be3df43f8bb911e495461a9ffa5e"
+  },
+  {
+    "path": "images/hero/slide-3.jpg",
+    "sha256": "d74af5f2ed58660f716ded9f4e61fac4401401a319d414f1bfcc78d34a0ec162"
+  },
+  {
+    "path": "images/hero/video-poster.jpg",
+    "sha256": "8befc4aa60fc2b2e11b1e9725642c2a3dd36d71e2c27660bda4e743a21808da8"
+  }
+]

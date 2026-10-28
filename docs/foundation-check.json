@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "page": "home",
+      "width": 1440,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    },
+    {
+      "page": "home",
+      "width": 320,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    },
+    {
+      "page": "library",
+      "width": 1440,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    },
+    {
+      "page": "library",
+      "width": 390,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    },
+    {
+      "page": "library",
+      "width": 320,
+      "noOverflow": true,
+      "fiveClickZones": true,
+      "colorChange": true,
+      "keyboard": true,
+      "backCard": true,
+      "filteredNavigation": true
+    }
+  ],
+  "eventPublication": true,
+  "weightEventDeduplication": true,
+  "reducedMotion": true,
+  "frameEntry": true,
+  "appWebShell": true,
+  "errors": []
+}

@@ -1,0 +1,15 @@
+.atlas-stage{position:relative;max-width:390px;width:100%;margin:auto;perspective:900px;isolation:isolate;padding:8px 0 24px}
+.atlas-human{display:block;width:100%;height:auto;position:relative;transform:rotateY(-9deg) rotateX(3deg);filter:drop-shadow(14px 18px 12px #0008);transition:transform .35s}
+.atlas-stage:hover .atlas-human{transform:rotateY(0deg) rotateX(0deg)}
+.atlas-platform{position:absolute;z-index:-1;left:12%;right:8%;bottom:0;height:65px;border:1px solid #00e9a26b;border-radius:50%;background:radial-gradient(ellipse,#00e9a22b,transparent 65%);box-shadow:0 12px 0 -9px #00e9a244,0 23px 0 -18px #00e9a244}
+.muscle-zone{cursor:pointer;outline:none;fill:#284d56;stroke:#7da4a8;stroke-opacity:.35;stroke-width:.8;transition:fill .2s,filter .2s}
+.atlas-human{pointer-events:none}
+.muscle-zone path{transition:fill .2s;pointer-events:bounding-box}
+.muscle-zone:hover,.muscle-zone:focus-visible{fill:#4ba792;stroke:#a8ffe3;stroke-opacity:1;filter:drop-shadow(0 0 4px #00e9a2)}
+.muscle-zone.is-selected{fill:url(#muscle);stroke:#bcffe8;stroke-opacity:1;filter:drop-shadow(0 0 7px #00e9a29c)}
+.atlas-stage-caption{display:block;font:9px monospace;letter-spacing:2px;text-align:center;color:#71aaa0;margin-top:10px}
+.muscle-route.is-selected{background:linear-gradient(120deg,#104938,#132d2d);border-color:#00e9a2;box-shadow:inset 3px 0 #00e9a2}
+.atlas-selection{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid #29403f;padding:18px 0;margin-top:15px}.atlas-selection h3{margin:6px 0;font-size:21px}.atlas-selection p{font-size:12px;color:#9bb6b1;margin:0}.atlas-selection .primary{font-size:13px;white-space:nowrap}.atlas-selection .eyebrow{font-size:9px}
+.muscle-atlas{padding:26px!important}.muscle-atlas .section-head{margin-bottom:12px}.muscle-atlas .hotspot-layout{gap:22px}.muscle-atlas .muscle-routes{margin:16px 0}
+@media(max-width:850px){.muscle-atlas{padding:20px!important}.atlas-stage{max-width:300px}.atlas-selection{flex-wrap:wrap}.atlas-selection .primary{width:100%;text-align:center}.muscle-atlas .section-head h2{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.atlas-human,.atlas-stage:hover .atlas-human{transform:none;transition:none}.muscle-zone,.muscle-zone path{transition:none}}
