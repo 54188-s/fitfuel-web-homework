@@ -1,0 +1,7 @@
+/* Coursework training pages: imagery belongs to the background, not a media block. */
+body[data-page="strength"] main,body[data-page="cardio"] main{position:relative;isolation:isolate}
+body[data-page="strength"] main::before,body[data-page="cardio"] main::before{content:"";position:absolute;z-index:-1;inset:0 0 auto;height:760px;max-height:100%;pointer-events:none;background-repeat:no-repeat;background-size:cover;background-position:center;opacity:.8}
+body[data-page="strength"] main::before{background-image:linear-gradient(90deg,#070b12ed 0%,#070b12b8 48%,#070b124d),linear-gradient(0deg,#070b12 0%,transparent 55%),url('../images/course-media/home-hero.jpg');background-position:66% 35%}
+body[data-page="cardio"] main::before{background-image:linear-gradient(90deg,#070b12ed 0%,#070b12b8 48%,#070b124d),linear-gradient(0deg,#070b12 0%,transparent 55%),url('../images/course-media/poster-cardio.jpg');background-position:65% center}
+body[data-page="strength"] .panel,body[data-page="cardio"] .panel{background:rgba(12,20,30,.91)}
+@media(max-width:700px){body[data-page="strength"] main::before,body[data-page="cardio"] main::before{height:620px;background-position:60% top;opacity:.6}}
