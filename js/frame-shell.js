@@ -7,7 +7,11 @@
     if (shell) shell.cols = innerWidth > 850 ? '224,*' : open ? '190,*' : '0,*';
   }
   window.addEventListener('resize', fit);
-  window.addEventListener('DOMContentLoaded', fit);
+  window.addEventListener('DOMContentLoaded', () => {
+    fit();
+    const page = new URLSearchParams(location.search).get('page');
+    if (known.has(page)) document.querySelector('frame[name="content"]').src = 'html/' + page + '.html';
+  });
   window.addEventListener('message', event => {
     const localFile = location.protocol === 'file:';
     if (localFile ? event.origin !== 'null' : event.origin !== location.origin) return;

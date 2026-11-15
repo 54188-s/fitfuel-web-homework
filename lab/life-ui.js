@@ -75,8 +75,14 @@ export function mountLife({ act, setPaused, setMessage, events }) {
     // Keep the real page alive, including unsubmitted inputs and the active session.
     refresh(); opener?.focus({preventScroll:true});
   }
+  const inCourse = window !== window.top && window.name === 'content';
+  if (inCourse) parent.postMessage({kind:'fitfuel-course',action:'active',page:'life',title:'健身游戏与生活间'}, location.origin);
   function openRecords(page, source) {
     if(!pages[page])return;
+    if (inCourse) {
+      parent.postMessage({kind:'fitfuel-course',action:'navigate',page}, location.origin);
+      return;
+    }
     receipt.hide();
     opener=source||document.activeElement;panel.hidden=false;panel.inert=false;
     $('#recordTitle').textContent=pages[page];
