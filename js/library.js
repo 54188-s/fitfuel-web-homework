@@ -22,7 +22,7 @@
    }).join('')||FitUI.empty('没有匹配的动作，请调整筛选。');
    if(visible<list.length)$('libraryGrid').insertAdjacentHTML('beforeend',`<div class="library-more"><button class="secondary" data-more>继续显示 ${Math.min(24,list.length-visible)} 个动作</button><p>搜索和分类会检索全部 ${FitData.EXERCISES.length} 个动作</p></div>`);
    FitMotion.mount($('libraryGrid'));
-   $('libraryCategories').querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.dataset.cat===group&&scope==='all'||b.dataset.scope===scope));
+   $('libraryCategories').querySelectorAll('button').forEach(b=>{const active=b.dataset.cat===group&&scope==='all'||b.dataset.scope===scope;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
   }
   $('librarySearch').oninput=()=>{visible=24;render()};
   $('libraryCategories').onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.cat){group=b.dataset.cat;scope='all'}else{scope=b.dataset.scope;group='all'}visible=24;render()};

@@ -1,0 +1,46 @@
+{
+  "generator": "OpenAI imagegen built-in",
+  "date": "2026-10-21",
+  "reference": "assets/life/room.png",
+  "original": "exec-dbb08473-eb4d-4b07-a5d6-90d65a2490bf.png",
+  "original_sha256": "4a26f5a1af768634ae9f5a9df7e83bb936f2211b484b6581b31e5a37fc00291c",
+  "original_dimensions": [
+    1254,
+    1254
+  ],
+  "atlas_dimensions": [
+    512,
+    512
+  ],
+  "rgba": true,
+  "frames": [
+    [
+      25,
+      29,
+      206,
+      199
+    ],
+    [
+      281,
+      22,
+      205,
+      206
+    ],
+    [
+      25,
+      278,
+      206,
+      206
+    ],
+    [
+      283,
+      278,
+      201,
+      206
+    ]
+  ],
+  "normalization": "Four quadrants independently alpha-cropped, aspect-preserving fit inside 206x206, centered in 256px cells, bottom at228px; no redraw.",
+  "atlas_sha256": "1d290c82d0555f8e219967246910dd1db579846d4255e73dd06c30b950ac988e",
+  "atlas_bytes": 152578,
+  "brief": "Original warm miniature isometric plant, books and mug, brass mushroom lamp, freestanding oak green-hill frame; transparent 2x2 grid. No third-party game art."
+}

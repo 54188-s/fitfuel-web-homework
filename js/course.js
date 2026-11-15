@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded',()=>{
  if($('feedbackForm'))$('feedbackForm').onsubmit=e=>{e.preventDefault();FitUI.modal('<h2>确认反馈草稿</h2><p>称呼：'+esc($('feedbackName').value)+'<br>类型：'+esc($('feedbackType').value)+'</p><p>'+esc($('feedbackText').value)+'</p><p class="muted">仅本地预览，没有发送。</p><button id="feedbackClose" class="primary">关闭预览</button>');$('feedbackClose').onclick=()=>{FitUI.close();$('feedbackStatus').textContent='反馈草稿已预览，未发送到服务器。'}};
 });
 FitPages.register=()=>{FitPages.account();FitUI.$('showRegister').click()};
+
+document.addEventListener('DOMContentLoaded',()=>{if(window.name==='fitfuel-app-content'){document.documentElement.classList.add('app-content');const css=document.createElement('link');css.rel='stylesheet';css.href='../css/app-content.css';document.head.append(css)}});

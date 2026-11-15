@@ -1,0 +1,2 @@
+.auto-goals .stats{margin-bottom:18px}.auto-goals .stat small{color:#a5bfb4}.auto-goal-progress{display:grid;gap:10px;margin-bottom:14px}.auto-goal-state{margin:0 0 16px;color:#b1e5ce;font-size:14px}.auto-goal-weekly{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap}.auto-goal-weekly label{display:inline;margin:0}.auto-goal-weekly input{width:120px;min-height:44px}.auto-goal-weekly .actions{margin:0}.auto-goals .muted{font-size:13px;line-height:1.7}
+@media(max-width:600px){.auto-goal-weekly input{width:100%}.auto-goal-weekly label{display:block}}

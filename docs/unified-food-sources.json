@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026-10-17.1",
+  "nutrientBasisGrams": 100,
+  "licenseReference": "https://fdc.nal.usda.gov/api-guide/",
+  "foods": [
+    {
+      "id": "usda_171077",
+      "familyId": "chicken-breast",
+      "name": "鸡胸肉（生）",
+      "category": "肉类",
+      "brand": "",
+      "aliases": [
+        "鸡胸",
+        "生鸡胸肉",
+        "鸡胸肉生",
+        "chicken breast raw"
+      ],
+      "state": "raw",
+      "preparation": "去皮去骨，未烹调",
+      "kcal": 120,
+      "protein": 22.5,
+      "carb": 0.0,
+      "fat": 2.62,
+      "source": {
+        "provider": "USDA FoodData Central",
+        "id": "171077",
+        "url": "https://fdc.nal.usda.gov/",
+        "license": "CC0-1.0",
+        "dataType": "SR Legacy",
+        "energyBasis": "Energy (1008)",
+        "retrievedOn": "2026-10-17"
+      },
+      "originalName": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw"
+    },
+    {
+      "id": "usda_171477",
+      "familyId": "chicken-breast",
+      "name": "鸡胸肉（烤熟）",
+      "category": "肉类",
+      "brand": "",
+      "aliases": [
+        "鸡胸",
+        "熟鸡胸肉",
+        "鸡胸肉熟",
+        "烤鸡胸肉",
+        "chicken breast cooked roasted"
+      ],
+      "state": "cooked",
+      "preparation": "烤制，肉部分",
+      "kcal": 165,
+      "protein": 31.0,
+      "carb": 0.0,
+      "fat": 3.57,
+      "source": {
+        "provider": "USDA FoodData Central",
+        "id": "171477",
+        "url": "https://fdc.nal.usda.gov/",
+        "license": "CC0-1.0",
+        "dataType": "SR Legacy",
+        "energyBasis": "Energy (1008)",
+        "retrievedOn": "2026-10-17"
+      },
+      "originalName": "Chicken, broilers or fryers, breast, meat only, cooked, roasted"
+    },
+    {
+      "id": "usda_2710825",
+      "familyId": "black-rice",
+      "name": "黑米（生）",
+      "category": "谷物",
+      "brand": "",
+      "aliases": [
+        "生黑米",
+        "黑米生",
+        "黑米干米",
+        "black rice raw"
+      ],
+      "state": "raw",
+      "preparation": "未强化，烹调前",
+      "kcal": 361,
+      "protein": 7.57,
+      "carb": 77.2,
+      "fat": 3.44,
+      "source": {
+        "provider": "USDA FoodData Central",
+        "id": "2710825",
+        "url": "https://fdc.nal.usda.gov/",
+        "license": "CC0-1.0",
+        "dataType": "Foundation",
+        "energyBasis": "Atwater Specific Factors (2048)",
+        "retrievedOn": "2026-10-17"
+      },
+      "originalName": "Rice, black, unenriched, raw"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "character": {
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/animated-characters-protagonists",
+    "license": "CC0-1.0",
+    "changes": "FitFuel clothing materials and authored skeletal movement; original skater face texture retained"
+  },
+  "furniture": {
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/furniture-kit",
+    "license": "CC0-1.0",
+    "models": [
+      "bookcaseOpenLow",
+      "books",
+      "lampRoundFloor",
+      "loungeChairRelax",
+      "plantSmall1",
+      "plantSmall2",
+      "pottedPlant",
+      "sideTable"
+    ]
+  },
+  "renderer": {
+    "name": "three",
+    "version": "0.180.0",
+    "license": "MIT"
+  },
+  "files": {
+    "assets/human.glb": "52ca63f247b41a95fa8031055b9260f2e8d65a19ceafaae1fdb9a78124f417e9",
+    "assets/noto-sc-0.ttf": "733078a2bc0b4ea43555ff9b8fc4f925a52011ba61a8a267dee6d56c3c30fce6",
+    "assets/noto-sc-1.ttf": "717bb6d17db8018095aa9176454608882358cf3af8c823bbd5127636ed5754c4",
+    "assets/noto-sc-2.ttf": "90d2ba96581a3c51a8f920d288c24afb4fcb36c1a44e2de9f0b9c4e55b8ab39e",
+    "assets/noto-sc-3.ttf": "9967e984130e5f207e8f1d5d7e212bdd8efb2658062932baf4c64f8336a55a31",
+    "assets/skin.png": "d029d0250d67b534ff21b04a678482739dc1979641527d9029393c9dd2b73e7f",
+    "assets/furniture/bookcaseOpenLow.glb": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+    "assets/furniture/books.glb": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+    "assets/furniture/lampRoundFloor.glb": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+    "assets/furniture/loungeChairRelax.glb": "def698179e44de6cd17f4cfc2730273da54dd25458a29b079fbf4468abe5d98e",
+    "assets/furniture/plantSmall1.glb": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+    "assets/furniture/plantSmall2.glb": "d7c8ff42c66dd4f9238a73570549813d1ca6c5f6f661d7af9cb764c4fce314b9",
+    "assets/furniture/pottedPlant.glb": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+    "assets/furniture/sideTable.glb": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+    "assets/licenses/KENNEY-CHARACTERS-CC0.txt": "68280323c6dca1f532c71fb248a6f344abed39a574278a2edfa27801aea3d0cd",
+    "assets/licenses/KENNEY-FURNITURE-CC0.txt": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+    "assets/licenses/NOTO-OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "assets/licenses/THREE-MIT.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  "font": {
+    "family": "Noto Sans SC",
+    "license": "OFL-1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+  },
+  "authored": [
+    "room geometry, sports props and contact shader",
+    "four skeletal clips in build_character.py"
+  ]
+}

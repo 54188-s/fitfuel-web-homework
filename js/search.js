@@ -12,11 +12,17 @@ window.FitSearch = (() => {
     return extra.some(value => normalize(value).includes(q)) ? 200 : 0;
   }
   function inGroup(exercise, group) {
-    const tags = new Set([exercise.category, ...array(exercise.tags)]);
     if (!group || group === 'all') return true;
-    if (group === 'legs') return ['legs','quads','hamstrings','glutes','calves'].some(k => tags.has(k));
-    if (group === 'arms') return ['arms','biceps','triceps','forearms'].some(k => tags.has(k));
-    return tags.has(group);
+    const category = exercise.category;
+    // Browse by the primary category. Secondary muscle tags remain searchable,
+    // but must not mix chest/back actions into shoulder or leg browsing.
+    const legs = ['quads','hamstrings','glutes','calves'], arms = ['biceps','triceps','forearms'];
+    if (group === 'legs') return category === 'legs' || legs.includes(category);
+    if (group === 'arms') return category === 'arms' || arms.includes(category);
+    if (category === group) return true;
+    // Older records have a broad leg/arm category; refine only inside that family.
+    return ((category === 'legs' && legs.includes(group)) || (category === 'arms' && arms.includes(group)))
+      && array(exercise.tags).includes(group);
   }
   function ordered(items, query, options, extra) {
     const favorites = options.favorites || [], recent = options.recent || [];

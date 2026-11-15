@@ -1,5 +1,5 @@
 "use strict";
-FitPages.nutrition=()=>{const {$,num,stat}=FitUI,m=FitCalc.calculateMacros(FitStore.profile());$('nutritionStats').innerHTML=stat('每日目标热量',num(m.target),'kcal')+stat('蛋白质',m.protein,'g')+stat('碳水化合物',m.carb,'g')+stat('脂肪',m.fat,'g');$('macroTargets').innerHTML=FitUI.progress('蛋白质',m.protein,m.protein,'var(--mint)')+FitUI.progress('碳水',m.carb,m.carb,'var(--cyan)')+FitUI.progress('脂肪',m.fat,m.fat,'#ffbd59');$('nutritionProgress').innerHTML=FitUI.progressAll(FitStore.meals())};
+FitPages.nutrition=()=>{const {$,num,stat}=FitUI,m=FitCalc.calculateMacros(FitStore.profile());FitAutoGoalsUI.mount('.two-col');$('nutritionStats').innerHTML=stat('每日目标热量',num(m.target),'kcal')+stat('蛋白质',m.protein,'g')+stat('碳水化合物',m.carb,'g')+stat('脂肪',m.fat,'g');$('macroTargets').innerHTML=FitUI.progress('蛋白质',m.protein,m.protein,'var(--mint)')+FitUI.progress('碳水',m.carb,m.carb,'var(--cyan)')+FitUI.progress('脂肪',m.fat,m.fat,'#ffbd59');$('nutritionProgress').innerHTML=FitUI.progressAll(FitStore.meals())};
 
 FitPages.foods=()=>{
  const {$,esc,num}=FitUI;let category='全部',scope='all';

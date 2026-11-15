@@ -1,0 +1,110 @@
+{
+  "roomSize": [
+    768,
+    512
+  ],
+  "atlasSize": [
+    768,
+    768
+  ],
+  "parts": {
+    "head": [
+      35,
+      29,
+      131,
+      147
+    ],
+    "hair-short": [
+      206,
+      20,
+      173,
+      129
+    ],
+    "hair-curly": [
+      389,
+      23,
+      178,
+      146
+    ],
+    "hair-ponytail": [
+      576,
+      26,
+      181,
+      159
+    ],
+    "shirt": [
+      25,
+      208,
+      158,
+      160
+    ],
+    "shorts": [
+      214,
+      229,
+      163,
+      125
+    ],
+    "arm-near": [
+      444,
+      198,
+      59,
+      194
+    ],
+    "arm-far": [
+      634,
+      199,
+      82,
+      194
+    ],
+    "leg-near": [
+      68,
+      394,
+      71,
+      142
+    ],
+    "leg-far": [
+      263,
+      396,
+      63,
+      139
+    ],
+    "shoe-near": [
+      423,
+      459,
+      125,
+      84
+    ],
+    "shoe-far": [
+      605,
+      458,
+      131,
+      85
+    ],
+    "hair-long": [
+      21,
+      576,
+      170,
+      161
+    ],
+    "reference": [
+      257,
+      542,
+      79,
+      215
+    ],
+    "dumbbell": [
+      404,
+      617,
+      157,
+      103
+    ],
+    "bowl": [
+      611,
+      594,
+      132,
+      127
+    ]
+  },
+  "view": "three-quarter right-facing human; fixed 2.5D room",
+  "source": "original built-in image generation; generated masters retained in task work directory"
+}

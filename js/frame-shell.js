@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   let open = false;
-  const known = new Set('home account register user body metrics weight training library exercise strength cardio nutrition foods meals analysis about techniques contact'.split(' '));
+  const known = new Set('home life account register user body metrics weight training library exercise strength cardio nutrition foods meals analysis about techniques contact'.split(' '));
   function fit() {
     const shell = document.getElementById('workspace');
     if (shell) shell.cols = innerWidth > 850 ? '224,*' : open ? '190,*' : '0,*';

@@ -1,0 +1,29 @@
+{
+  "version": "0.13.0",
+  "versionCode": 16,
+  "catalog": {
+    "actions": 347,
+    "foods": 113,
+    "displayFrames": 837,
+    "threeFrameActions": 191,
+    "twoFrameActions": 108,
+    "singleFrameActions": 48
+  },
+  "healthAuthority": "existing website FitStore",
+  "gameContainsHealthForms": false,
+  "cloudSync": false,
+  "memories": "read-only seven-day history and first recorded training/meal",
+  "liveTraining": "existing training draft, per-set facts and projected human state",
+  "exploration": "three virtual routes; eighteen claim-derived discoveries; original economy unchanged",
+  "routine": "three autonomous visual activities with manual control and persisted pause",
+  "categoryBrowse": "primary category only; no secondary-muscle leakage",
+  "album": "local IndexedDB photos and notes; explicit save; real-record references; atomic edit/delete/import; separate backup",
+  "progress": "read-only weekly history and daily confirmed-load records; original record album references",
+  "companionMotion": "eight cutout human rhythms, original-session focus, rest/pause priority; not a technical exercise demonstration",
+  "autoGoals": "derived from existing records; original 0.11 feature; no new health ledger",
+  "roomRendering": "balanced drawing state across continuous frames; same editable source in website and App",
+  "furnitureLife": "four human life actions, measured seat contacts, waypoint routes, saved visual choices, close room view",
+  "todaySummary": "existing saved training and meals only; no parallel health database",
+  "meeting": "optional resumable inline first meeting, replay, original recording entry points",
+  "expressions": "original human bright, focused and relaxed sprites; optional saved-record replies"
+}

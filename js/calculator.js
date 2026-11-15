@@ -7,7 +7,7 @@ window.FitCalc = (() => {
   const calculateBMI=(w,h)=>valid(w,30,300)&&valid(h,100,250)?Number(w)/(Number(h)/100)**2:0;
   const calculateBMR=(p)=>10*p.weight+6.25*p.height-5*p.age+(p.gender==='female'?-161:5);
   const calculateTDEE=(p)=>calculateBMR(p)*p.activityLevel;
-  const calculateTargetCalories=(p)=>Math.max(0,calculateTDEE(p)+(p.goal==='cut'?-400:p.goal==='bulk'?400:0));
+  const calculateTargetCalories=(p)=>valid(p.targetCalories,1000,6000)?Number(p.targetCalories):Math.max(0,calculateTDEE(p)+(p.goal==='cut'?-400:p.goal==='bulk'?400:0));
   const calculateMacros=(p)=>{const target=calculateTargetCalories(p);const protein=round(p.weight*(p.goal==='cut'?2.2:p.goal==='bulk'?1.8:2));const fat=round(target*.25/9);const carb=Math.max(0,round((target-protein*4-fat*9)/4));return{protein,fat,carb,target:round(target)}};
   const calculateCardioCalories=(met,w,min)=>valid(met,.1,30)&&valid(w,30,300)&&valid(min,1,600)?Number(met)*3.5*Number(w)/200*Number(min):0;
   const calculateOneRM=(w,r)=>valid(w,.1,500)&&valid(r,1,12,true)?Number(w)*(1+Number(r)/30):0;
